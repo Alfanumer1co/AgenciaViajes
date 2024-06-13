@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="ClienteWsAuth">
+      <implementation-class>ws.ClienteWsAuth</implementation-class>
+    </service>
+    <service name="DestinoWsAuth">
+      <implementation-class>ws.DestinoWsAuth</implementation-class>
+    </service>
+    <service name="ReservaWsAuth">
+      <implementation-class>ws.ReservaWsAuth</implementation-class>
+    </service>
+    <service name="VentaWsAuth">
+      <implementation-class>ws.VentaWsAuth</implementation-class>
+    </service>
+    <service name="ViajeWsAuth">
+      <implementation-class>ws.ViajeWsAuth</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
